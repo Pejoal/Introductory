@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pejoal</title>
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- <link rel="stylesheet" href="/bootstrap/all.min.css" /> -->
+		<!-- Swiper -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/swipejs/2.3.1/style.min.css"
+			integrity="sha512-+0rLxf9GysTpzDehJJr15kUn2zvyF/Sl3HH+/YBvloZbUUIq7zP6YHInKsRTmF82Bezez0O68DvNqCr8WopvXg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="/bootstrap/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<meta name="description" content="My Awesome Portfolio" />
+		<meta name="keywords" content="Pejoal's Website" />
+		<meta name="author" content="Pejoal" />
+		<!-- <meta name="revised" content="Tuesday, July 20th, 2022, 10:15 am" /> -->
+		<meta name="revised" content="August 20th, 2022, 10:15 am" />
+		<meta name="copyright" content="Pejoal" />
+
+		<!-- Manifest -->
+		<meta name="theme-color" content="transparent" />
+		<!-- <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="white"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="black"
+    /> -->
+		<link
+			rel="manifest"
+			href="manifest.json"
+		/>
+
+		<!-- from https://realfavicongenerator.net/ -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="pwa/imgs/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="pwa/imgs/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="pwa/imgs/favicon-16x16.png"
+		/>
+		<link
+			rel="mask-icon"
+			href="pwa/imgs/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<meta name="msapplication-TileColor" content="#da532c" />
+		
+	</head>
+	<body>
+		<!-- Start Header -->
+		<header>
+			<nav>
+				<section>
+					<h1>Pejoal</h1>
+				</section>
+				<section class="next">
+					<button id="full-screen-btn">
+						<i class="fa fa-mobile-screen"></i>
+					</button>
+					<section class="hamburger-icon">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</section>
+					<section class="navs-container">
+						<h1>Pejoal</h1>
+						<img
+							src="pwa/imgs/maskable_icon.png"
+							alt="img"
+						/>
+						<ul class="navs">
+							<li><a taget="_blank" href="#hero">Home</a></li>
+							<li><a taget="_blank" href="#carousel">Slider</a></li>
+							<li><a taget="_blank" href="#portfolio">Portfolio</a></li>
+							<li><a taget="_blank" href="#skills">Skills</a></li>
+							<li><a taget="_blank" href="#testimonials">Testimonials</a></li>
+							<li><a taget="_blank" href="#next">Next</a></li>
+							<li><a taget="_blank" href="#about">About</a></li>
+							<li><a taget="_blank" href="#contact">Contact</a></li>
+							<li>
+								<a taget="_blank" href="quiz/"
+									>Quiz App</a
+								>
+							</li>
+							<li>
+								<a
+									taget="_blank"
+									href="login_system/"
+									>Login System</a
+								>
+							</li>
+							<li>
+								<a
+									taget="_blank"
+									href="indexedDB/"
+									>Indexed DB</a
+								>
+							</li>
+							<li>
+								<a taget="_blank" href="shop/"
+									>Shop</a
+								>
+							</li>
+						</ul>
+					</section>
+				</section>
+			</nav>
+		</header>
+
+		<!-- End Header -->
+
+		<main>
+			<!-- Start Hero -->
+			<section id="hero" class="container">
+				<h1>Welcome to my website</h1>
+				<h3>Name: Pejoal.</h3>
+				<h3>Job: Full Stack Web Developer.</h3>
+				<h3>Many Years Of Experience.</h3>
+				<h3>A Lot Of Projects.</h3>
+				<a taget="_blank" href="#portfolio"
+					><h3 class="shadow">See More.</h3></a
+				>
+				<h3 class="type-writer"></h3>
+			</section>
+
+			<section id="carousel" class="container">
+				<section class="headings">
+					<h3>Our Vanilla JavaScript Smart Slider</h3>
+					<h1>Images Slider</h1>
+				</section>
+				<section class="carousel-container">
+					<img
+						src="imgs/a.jpg"
+						alt="Image Not Exist"
+					/>
+					<img
+						src="imgs/b.jpg"
+						alt="Image Not Exist"
+					/>
+					<img
+						src="imgs/c.jpg"
+						alt="Image Not Exist"
+					/>
+					<img
+						src="imgs/d.jpeg"
+						alt="Image Not Exist"
+					/>
+				</section>
+				<section class="indicators">
+					<!-- <button id="btn1"> Demo </button> -->
+				</section>
+				<section class="arrows">
+					<section class="left">
+						<i class="fa fa-arrow-left"></i>
+					</section>
+					<section class="right">
+						<i class="fa fa-arrow-right"></i>
+					</section>
+				</section>
+			</section>
+			<section id="portfolio" class="container">
+				<section class="headings">
+					<h3>Some Of Our Works</h3>
+					<h1>Portfolio</h1>
+				</section>
+				<!-- <section class="toggle-projects">
+          <button id="all">All</button>
+          <button id="front-end">Front End</button>
+          <button id="back-end">Back End</button>
+        </section> -->
+				<section class="cards">
+					<section class="card back-end">
+						<img
+							src="imgs/login_system.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Full Login System</h1>
+						<span>(High Level Security, Many Options)</span>
+						<section class="links">
+							<a
+								taget="_blank"
+								href="login_system/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/">Github</a>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/quiz.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Quiz App</h1>
+						<span>(With Progress Steps)</span>
+						<section class="links">
+							<a taget="_blank" href="quiz/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/Quiz/"
+								>Github</a
+							>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/carousel.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Carousel App</h1>
+						<span> (Responsive Vanilla JS Images Slider)</span>
+						<section class="links">
+							<a
+								taget="_blank"
+								href="carousel/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/Carousel/"
+								>Github</a
+							>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/form_validation.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Form Validation</h1>
+						<span>(Client Side)</span>
+						<section class="links">
+							<a
+								taget="_blank"
+								href="form_validation/"
+								>Visit</a
+							>
+							<a
+								taget="_blank"
+								href="https://github.com/Pejoal/Form-Validation/"
+								>Github</a
+							>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/login.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Form Validation</h1>
+						<span>(Server Side, Embeded in Login System App)</span>
+						<section class="links">
+							<a
+								taget="_blank"
+								href="login_system/login.php"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/">Github</a>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/auto_complete.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Auto Complete Text</h1>
+						<span>(Vanilla JS Application)</span>
+						<section class="links">
+							<a
+								taget="_blank"
+								href="auto_complete/"
+								>Visit</a
+							>
+							<a
+								taget="_blank"
+								href="https://github.com/Pejoal/Search-Auto-Complete/"
+								>Github</a
+							>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/night_mode.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Portfolio</h1>
+						<span>(Supprot Night Mode)</span>
+						<section class="links">
+							<a
+								taget="_blank"
+								href="night_mode/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/Portfolio"
+								>Github</a
+							>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/swiper.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Swiper</h1>
+						<span>(Simple Swiper Using Swiper.js)</span>
+						<section class="links">
+							<a taget="_blank" href="swiper/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/">Github</a>
+						</section>
+					</section>
+					<section class="card back-end">
+						<img
+							src="imgs/mulilangual.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Multi Languages</h1>
+						<span>(Simple Multi Languages Website)</span>
+						<section class="links">
+							<a
+								taget="_blank"
+								href="multilangual/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/">Github</a>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/demo1.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Demo 1</h1>
+						<section class="links">
+							<a taget="_blank" href="demo 1/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/Landing-Page-1/"
+								>Github</a
+							>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/demo2.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Demo 2</h1>
+						<section class="links">
+							<a taget="_blank" href="demo 2/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/Landing-Page-2/"
+								>Github</a
+							>
+						</section>
+					</section>
+					<section class="card front-end">
+						<img
+							src="imgs/fun.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Funny Stuff</h1>
+						<span>(Age Calculator & Password Generator)</span>
+						<section class="links">
+							<a taget="_blank" href="fun/"
+								>Visit</a
+							>
+							<a taget="_blank" href="https://github.com/Pejoal/Cool-Functions/"
+								>Github</a
+							>
+						</section>
+					</section>
+				</section>
+				<section class="nums">
+					<section>
+						<h2>Projects:</h2>
+						<h3 data-goal="800"></h3>
+					</section>
+					<section>
+						<h2>Clients:</h2>
+						<h3 data-goal="500"></h3>
+					</section>
+					<section>
+						<h2>Teams:</h2>
+						<h3 data-goal="200"></h3>
+					</section>
+				</section>
+			</section>
+			<section id="skills" class="container">
+				<section class="headings">
+					<h3>My Skills In Web Development</h3>
+					<h1>Skills</h1>
+				</section>
+				<h2>Front End</h2>
+				<section class="cards">
+					<section class="skill">
+						<h3>HTML 5</h3>
+						<section class="skill-progress" data-progress="100%">
+							<span style="width: 100%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>CSS 3</h3>
+						<section class="skill-progress" data-progress="100%">
+							<span style="width: 100%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Responsive Web Design</h3>
+						<section class="skill-progress" data-progress="100%">
+							<span style="width: 100%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>SASS</h3>
+						<section class="skill-progress" data-progress="90%">
+							<span style="width: 90%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>PUG</h3>
+						<section class="skill-progress" data-progress="90%">
+							<span style="width: 90%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>JavaScript (ES 6)</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>PWA</h3>
+						<section class="skill-progress" data-progress="90%">
+							<span style="width: 90%"></span>
+						</section>
+					</section>
+				</section>
+				<h2>Libraries & Frameworks</h2>
+				<section class="cards">
+					<section class="skill">
+						<h3>Bootstartp 5</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Tailwind CSS</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>TypeScript</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>React</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Jest</h3>
+						<section class="skill-progress" data-progress="50%">
+							<span style="width: 50%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Gulp js</h3>
+						<section class="skill-progress" data-progress="85%">
+							<span style="width: 85%"></span>
+						</section>
+					</section>
+				</section>
+				<h2>Back End</h2>
+				<section class="cards">
+					<section class="skill">
+						<h3>PHP 8</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>MySQL / MariaDB</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Laravel Framework</h3>
+						<section class="skill-progress" data-progress="90%">
+							<span style="width: 90%"></span>
+						</section>
+					</section>
+				</section>
+				<h2>Other Technical Skills</h2>
+				<section class="cards">
+					<section class="skill">
+						<h3>GIT & Github</h3>
+						<section class="skill-progress" data-progress="95%">
+							<span style="width: 95%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Object Oriented (OOP)</h3>
+						<section class="skill-progress" data-progress="90%">
+							<span style="width: 90%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Clean Code</h3>
+						<section class="skill-progress" data-progress="90%">
+							<span style="width: 90%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>Command Line & Linux</h3>
+						<section class="skill-progress" data-progress="%75">
+							<span style="width: 75%"></span>
+						</section>
+					</section>
+				</section>
+				<h2>Languages</h2>
+				<section class="cards">
+					<section class="skill">
+						<h3>Arabic (Mother Tongue)</h3>
+						<section class="skill-progress" data-progress="100%">
+							<span style="width: 100%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>English</h3>
+						<section class="skill-progress" data-progress="85%">
+							<span style="width: 85%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>German</h3>
+						<section class="skill-progress" data-progress="75%">
+							<span style="width: 75%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>French</h3>
+						<section class="skill-progress" data-progress="40%">
+							<span style="width: 40%"></span>
+						</section>
+					</section>
+				</section>
+				<h2>Design & Graphics</h2>
+				<section class="cards">
+					<section class="skill">
+						<h3>UI</h3>
+						<section class="skill-progress" data-progress="40%">
+							<span style="width: 40%"></span>
+						</section>
+					</section>
+					<section class="skill">
+						<h3>UX</h3>
+						<section class="skill-progress" data-progress="40%">
+							<span style="width: 40%"></span>
+						</section>
+					</section>
+				</section>
+			</section>
+			<section id="testimonials" class="container">
+				<section class="headings">
+					<h3>Reviews From Clients</h3>
+					<h1>Testimonials</h1>
+				</section>
+				<section class="cards">
+					<section class="card">
+						<img
+							src="imgs/a.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Alex Jossef</h1>
+						<p>
+							He is a Smart Full Stack Develper whom i have worked with, ...
+						</p>
+					</section>
+					<section class="card">
+						<img
+							src="imgs/b.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Masa Light</h1>
+						<p>I have worked with him ....</p>
+					</section>
+					<section class="card">
+						<img
+							src="imgs/c.jpg"
+							alt="Img Not Found"
+						/>
+						<h1>Mark Steve</h1>
+						<p>The Best to be honest</p>
+					</section>
+					<section class="card">
+						<img
+							src="imgs/d.jpeg"
+							alt="Img Not Found"
+						/>
+						<h1>Bill Xavier</h1>
+						<p>A lot of Experience, Clean Code, OOP Orangized Simply Awesome</p>
+					</section>
+				</section>
+				<hr />
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="img-container">
+								<img
+									src="imgs/profile2.jpg"
+									alt="not exist"
+								/>
+							</div>
+							<section class="content">
+								<h1>Anna</h1>
+								<h3>Software Engineer</h3>
+								<p>One of the best freelancers I have dealed with</p>
+							</section>
+						</div>
+						<div class="swiper-slide">
+							<div class="img-container">
+								<img
+									src="imgs/profile1.jpg"
+									alt="not exist"
+								/>
+							</div>
+							<section class="content">
+								<h1>Ali</h1>
+								<h3>Front End Developer</h3>
+								<p>He offered me 50% discount</p>
+							</section>
+						</div>
+						<div class="swiper-slide">
+							<div class="img-container">
+								<img
+									src="imgs/profile3.jpg"
+									alt="not exist"
+								/>
+							</div>
+							<section class="content">
+								<h1>Joe</h1>
+								<h3>Back End Developer</h3>
+								<p>Low Price, High Quality</p>
+							</section>
+						</div>
+						<div class="swiper-slide">
+							<div class="img-container">
+								<img
+									src="imgs/profile4.jpg"
+									alt="not exist"
+								/>
+							</div>
+							<section class="content">
+								<h1>Kevin</h1>
+								<h3>Full Stack Web Developer</h3>
+								<p>
+									After service is done, He did some edits in website for free
+								</p>
+							</section>
+						</div>
+						<div class="swiper-slide">
+							<div class="img-container">
+								<img
+									src="imgs/profile5.jpg"
+									alt="not exist"
+								/>
+							</div>
+							<section class="content">
+								<h1>Sara</h1>
+								<h3>IT Specialist</h3>
+								<p>Great Performance</p>
+							</section>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section id="next" class="container">
+				<section class="headings">
+					<h3>Time Till End Of The Year</h3>
+					<h1>Next Projects</h1>
+				</section>
+				<section class="time">
+					<div>
+						<h4>Days:</h4>
+						<span class="days"></span>
+					</div>
+					<div>
+						<h4>Hours:</h4>
+						<span class="hours"></span>
+					</div>
+					<div>
+						<h4>Minutes:</h4>
+						<span class="minutes"></span>
+					</div>
+					<div>
+						<h4>Seconds:</h4>
+						<span class="seconds"></span>
+					</div>
+				</section>
+			</section>
+			<section id="about" class="container">
+				<section class="headings">
+					<h3>Get In Touch</h3>
+					<h1>Contact Me</h1>
+				</section>
+				<sections class="cards">
+					<a
+						taget="_blank"
+						href="mailto:Pejoal.Official@hotmail.com"
+						class="card"
+					>
+						<i class="fa fa-mail-bulk"></i>
+						<h2>Email</h2>
+						<h3>Pejoal.Official@</h3>
+						<h4>Send Me A Message</h4>
+					</a>
+					<a taget="_blank" href="https://github.com/Pejoal" class="card">
+						<i class="fab fa-github"></i>
+						<h2>Github</h2>
+						<h3>@Pejoal</h3>
+						<h4>Visit My Repos</h4>
+					</a>
+					<a
+						taget="_blank"
+						href="https://www.youtube.com/PejoalOfficial"
+						class="card"
+					>
+						<i class="fab fa-youtube"></i>
+						<h2>Youtube</h2>
+						<h3>user@Pejoal</h3>
+						<h4>Visit My Channel</h4>
+					</a>
+					<a
+						taget="_blank"
+						href="https://www.facebook.com/Pejoal.Official"
+						class="card"
+					>
+						<i class="fab fa-facebook"></i>
+						<h2>Facebook</h2>
+						<h3>@its.Pejoal</h3>
+						<h4>Facebook Page</h4>
+					</a>
+					<a
+						taget="_blank"
+						href="https://www.instagram.com/its.pejoal"
+						class="card"
+					>
+						<i class="fab fa-instagram"></i>
+						<h2>Instagram</h2>
+						<h3>@its.Pejoal</h3>
+						<h4>Insta Account</h4>
+					</a>
+					<a taget="_blank" href="https://t.me/Pejoal_Official" class="card">
+						<i class="fab fa-telegram"></i>
+						<h2>Telegram</h2>
+						<h3>@Pejoal_Official</h3>
+						<h4>Telegram Me</h4>
+					</a>
+				</sections>
+			</section>
+			<form
+				action="msg.inc.php"
+				name="contact"
+				method="post"
+				id="contact"
+				class="container"
+				onsubmit="return validate()"
+			>
+				<section class="headings">
+					<h3>Contact Us</h3>
+					<h1>Leave A Message</h1>
+				</section>
+				<section>
+					<input type="text" name="username" placeholder="Full Name" required />
+					<output class="error"
+						>Can't be empty or less than 4 charachters | Can't be only
+						numbers</output
+					>
+				</section>
+				<section>
+					<input type="email" name="email" placeholder="Email" required />
+					<output class="error">Not A Valid Email</output>
+				</section>
+				<section>
+					<input
+						type="password"
+						name="password"
+						placeholder="Create A Password"
+						required
+					/>
+					<i
+						class="fa fa-eye"
+						onclick="(this.parentElement.querySelector('[name=password]').type ==='text' ? this.parentElement.querySelector('[name=password]').type = 'password' : this.parentElement.querySelector('[name=password]').type = 'text')"
+					></i>
+					<output class="error">Can't be less than 8 charachters</output>
+				</section>
+				<section>
+					<textarea name="msg" placeholder="Your Message" required></textarea>
+					<output class="error">Can't be less than 10 charachters</output>
+				</section>
+				<input type="submit" name="send" value="Send Message" class="shadow" />
+			</form>
+		</main>
+
+		<!-- End Main -->
+
+		<!-- Start Controls -->
+
+		<section class="controls-container">
+			<section class="open-controls"><i class="fa fa-gear"></i></section>
+			<section class="controls">
+				<section class="more-controls">
+					<h1>Settings</h1>
+					<label>Change Color</label>
+					<section class="colors">
+						<span data-hex="#f24" data-sec="#213"></span>
+						<span data-hex="#000" data-sec="#888"></span>
+						<span data-hex="#fff" data-sec="#273456"></span>
+						<span data-hex="#47f" data-sec="#dedede"></span>
+					</section>
+					<section class="enable">
+						<label for="social">Social Icons</label>
+						<input
+							type="checkbox"
+							class="switch"
+							onchange="social()"
+							id="social-btn"
+						/>
+					</section>
+					<section class="enable">
+						<label for="social">Auto Slide</label>
+						<input
+							type="checkbox"
+							class="switch"
+							onchange="social()"
+							id="auto-slide"
+						/>
+					</section>
+					<section class="enable">
+						<label for="speed">Speed Turn/Second </label>
+						<input
+							name="speed"
+							id="speed"
+							type="number"
+							min="0"
+							value="1"
+							step="1"
+							max="10"
+						/>
+					</section>
+					<section class="close-btn">Close</section>
+				</section>
+			</section>
+		</section>
+		<section class="social-icons">
+			<a
+				taget="_blank"
+				href="https://www.youtube.com/PejoalOfficial"
+				style="color: #f25"
+				><i class="fab fa-youtube"></i
+			></a>
+			<a
+				href="https://m.twitter.com/PejoalOfficial"
+				style="color: rgb(15, 17, 141)"
+				><i class="fab fa-twitter"></i
+			></a>
+			<a taget="_blank" href="https://github.com/Pejoal" style="color: #888"
+				><i class="fab fa-github"></i
+			></a>
+			<a
+				taget="_blank"
+				href="https://facebook.com/Pejoal.Official"
+				style="color: #11f"
+				><i class="fab fa-facebook"></i
+			></a>
+			<a
+				href="https://www.instagram.com/its.pejoal"
+				style="color: rgb(207, 18, 56)"
+				><i class="fab fa-instagram"></i
+			></a>
+		</section>
+
+		<button id="up-btn"><i class="fa fa-arrow-up"></i></button>
+		<!-- Swiper -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/swipejs/2.3.1/swipe.min.js"
+			integrity="sha512-BdYpeNsC3p5iNMUKJEOuFvw/rkAuRos9X8T107qg13ERANBmWy+JHVOB6KrllL0SOjbnSjtdowWmx0xKa/U9cg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="/bootstrap/swiper-bundle.min.js"></script>
+		<!-- Font Awesome -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+			integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<!-- <script src="/bootstrap/all.min.js"></script> -->
+		<script src="main.js"></script>
+	</body>
+</html>

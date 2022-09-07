@@ -1,0 +1,86 @@
+{
+  "name": "Pejoal's Website",
+  "short_name": "Pejoal",
+  "description": "Just A portofolio & Other Some Stuff",
+	"start_url": "./?source=pwa",
+  "scope": "/",
+  "background_color": "#eee",
+  "theme_color": "transparent",
+  "display": "standalone",
+  "screenshots": [
+    {
+    "src": "pwa/imgs/android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    },
+    {
+    "src": "pwa/imgs/android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    }
+  ],
+    "shortcuts": [
+    {
+    "name": "Quiz App",
+    "short_name": "Quiz",
+    "description" : "Description 1",
+    "url": "./quiz/",
+    "icons": [{
+    "src": "pwa/imgs/maskable_icon_x512.png",
+    "purpose": "maskable"
+      }]
+    },
+    {
+    "name": "Shop App",
+    "short_name": "Shop",
+    "description" : "Shop PHP, MySQL Application",
+    "url": "./shop/index.php",
+    "icons": [{
+    "src": "pwa/imgs/maskable_icon_x512.png",
+    "purpose": "maskable"
+      }]
+    },
+    {
+    "name": "Night Mode",
+    "short_name": "Portofolio",
+    "description" : "Description 3",
+    "url": "./carousel/index.html",
+    "icons": [{
+    "src": "pwa/imgs/maskable_icon_x512.png",
+    "type":"image/png",
+    "purpose": "maskable"
+    }]
+    },
+    {
+    "name": "Carousel Vanilla js",
+    "short_name": "Carousel",
+    "description" : "Description 4",
+    "url": "./carousel/",
+    "icons": [{
+    "src": "pwa/imgs/maskable_icon_x512.png",
+    "type":"image/png",
+    "purpose": "maskable"
+    }]
+  }
+  ],
+  "icons": [
+    {
+      "src": "pwa/imgs/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa/imgs/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa/imgs/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
